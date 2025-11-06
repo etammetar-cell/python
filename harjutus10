@@ -1,0 +1,21 @@
+
+counter = 0
+sum = 0
+loop = 1
+
+while loop:
+    arv = input("Lisa arv: ")
+    if arv=="":
+        break #töötab ka loop = 0
+    counter+=1
+    sum+=int(arv)
+print(f"Keskmine: {sum/counter}")
+
+
+
+
+
+
+
+
+
